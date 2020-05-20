@@ -1,0 +1,2 @@
+// No regex '/' é um caractere especial então se usa '\/'
+// php -S localhost:8080 -t public/
