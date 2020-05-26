@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="" />
+    <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacoes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/users/edit.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/users/edit.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/users/view.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/users/view.tpl.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZXKnO5xrzJo2PcpBVQihkxK2Pa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,8 +40,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../he4rtlabs-challenges-01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sistema_autenticacao" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,6 +99,7 @@
       <workItem from="1589250959040" duration="1904000" />
       <workItem from="1589734123637" duration="356000" />
       <workItem from="1589734539360" duration="136000" />
+      <workItem from="1590455425309" duration="5345000" />
     </task>
     <servers />
   </component>
@@ -97,11 +111,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1585428295145" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589734670364">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590456207188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1589734670364" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1589031591978" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590456207188" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1588291357283" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1588035897493">
       <screen x="0" y="0" width="1366" height="728" />

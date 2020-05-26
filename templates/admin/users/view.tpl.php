@@ -8,7 +8,7 @@
     <dd class="col-sm-9"><?php echo $data['users']['created']; ?></dd>
 
     <dt class="col-sm-3">Atulizado em</dt>
-    <dd class="col-sm-9"><?php echo $data['users']['created']; ?></dd>
+    <dd class="col-sm-9"><?php echo $data['users']['updated']; ?></dd>
 </dl>
 
 <p>

@@ -5,9 +5,9 @@ function users_get_data ($redirectOnError)
     $senha = filter_input(INPUT_POST, 'senha');
 
 
-    if (is_null($email) or is_null($senha))
+    if (!$email)
     {
-        flash('Informe os campos de email e senha', 'error');
+        flash('Informe o campo de email', 'error');
         header('location: '.$redirectOnError);
         die();
     }
@@ -57,12 +57,26 @@ $users_create = function () use ($conn)
 
 $users_edit = function ($id) use ($conn)
 {
+    $data = users_get_data('/admin/users/' .$id. '/edit');
 
-    $data = users_get_data('/admin/pages/' .$id. '/edit');
+    $sql = 'UPDATE users SET email=?, updated=NOW() WHERE id=?';
 
-    $sql = 'UPDATE users SET email=?, password=?, updated=NOW() WHERE id=?';
+    if ($data['senha'])
+    {
+        $data['senha'] = password_hash($data['senha'], PASSWORD_DEFAULT);
+        $sql = 'UPDATE users SET email=?, password=?, updated=NOW() WHERE id=?';
+    }
+
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param('ssi', $data['email'], $data['senha'], $id);
+
+    if ($data['senha'])
+    {
+        $stmt->bind_param('ssi', $data['email'], $data['senha'], $id);
+    }
+    else
+    {
+        $stmt->bind_param('si', $data['email'], $id);
+    }
 
     flash('Registro atualizado com sucesso', 'success');
 

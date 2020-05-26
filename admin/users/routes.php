@@ -22,9 +22,16 @@ if (resolve('/admin/users')) {
 
     render('admin/users/view', 'admin', compact('users'));
 
-}elseif (resolve('/admin/users/(\d+)/edit')){
+}elseif ($params = resolve('/admin/users/(\d+)/edit')){
 
-        render('admin/users/edit', 'admin');
+        $users = $users_one($params[1]);
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST')
+        {
+            $users_edit($params[1]);
+            return header('location: /admin/users/' . $params[1]);
+        }
+        render('admin/users/edit', 'admin', compact('users'));
 
 }elseif ($params = resolve('/admin/users/(\d+)/delete')){
 

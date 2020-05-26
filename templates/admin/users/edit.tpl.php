@@ -3,11 +3,11 @@
 <form action="" method="post">
     <div class="form-group">
         <label for="usersEmail">Email: </label>
-        <input type="email" name="email" id="usersEmail" class="form-control" value="">
+        <input type="email" name="email" id="usersEmail" class="form-control" value="<?php echo $data['users']['email']; ?>">
     </div>
     <div class="form-group">
         <label for="usersSenha">Senha: </label>
-        <input type="password" name="senha" id="usersSenha" class="form-control" value="" ">
+        <input type="password" name="senha" id="usersSenha" class="form-control" placeholder="Digite sua nova senha" ">
     </div>
 
     <button class="btn btn-outline-success" type="submit">Editar</button>
