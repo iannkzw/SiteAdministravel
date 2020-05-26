@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anotacoes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/users/edit.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/users/edit.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/users/view.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/users/view.tpl.php" afterDir="false" />
-    </list>
+    <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +91,7 @@
       <workItem from="1589250959040" duration="1904000" />
       <workItem from="1589734123637" duration="356000" />
       <workItem from="1589734539360" duration="136000" />
-      <workItem from="1590455425309" duration="5345000" />
+      <workItem from="1590455425309" duration="5728000" />
     </task>
     <servers />
   </component>
