@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AppWm" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,6 +98,9 @@
       <workItem from="1590455425309" duration="5728000" />
       <workItem from="1590539948842" duration="183000" />
       <workItem from="1590543936233" duration="392000" />
+      <workItem from="1590625676105" duration="496000" />
+      <workItem from="1594075715100" duration="4996000" />
+      <workItem from="1594246291878" duration="387000" />
     </task>
     <servers />
   </component>
@@ -103,24 +108,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585428295145">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1585428295145" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590540129473">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-846" y="45" key="FileChooserDialogImpl" timestamp="1594246679137">
+      <screen x="-1280" y="-116" width="1280" height="984" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1024.0.1024.728@0.0.1366.728" timestamp="1589734670364" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590540129473" />
+    <state x="-846" y="45" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@-1280.-116.1280.984" timestamp="1594246679137" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590626171857" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1588291357283" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1588035897493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1588035897493" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1585183563161">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1585183563161" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1588814340396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
