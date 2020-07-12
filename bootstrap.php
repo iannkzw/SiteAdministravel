@@ -8,6 +8,7 @@ require 'src/resolve-routes.php';
 require 'src/render.php';
 require 'src/connect.php';
 require 'src/flash.php';
+require 'src/auth.php';
 
 
 if (resolve('/admin/?(.*)')) {

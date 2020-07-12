@@ -2,5 +2,5 @@
     new PNotify({
         title: '<?php echo $data['type']; ?>',
         text: '<?php echo $data['message']; ?>',
-        type: 'success'
+        type: '<?php echo $data['type']; ?>'
     });

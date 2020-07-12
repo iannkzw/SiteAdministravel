@@ -16,11 +16,14 @@
 </head>
 <body class="d-flex flex-column">
 <div id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="" class="navbar-brand">AdminSON</a>
-        <span class="navbar-text">
-                Painel administrativo da School of Net
+    <nav class="navbar navbar-dark bg-dark">
+        <span>
+            <a href="/admin" class="navbar-brand">Admin</a>
+            <span class="navbar-text">
+                    Painel administrativo
+            </span>
         </span>
+        <a href="/admin/auth/logout" class="btn btn-secondary btn-sm ">sair</a>
     </nav>
 </div>
 <div id="main">
@@ -28,13 +31,13 @@
         <div class="col">
             <ul id="main-menu" class="nav flex-column nav-pills bg-secondary text-white p-2">
                 <li class="nav-item">
-                    <span href="" class="nav-link"><small>MENU</small></span>
+                    <span class="nav-link"><small>MENU</small></span>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin/pages" class="nav-link active">Páginas</a>
+                    <a href="/admin/pages" class="nav-link <?php if (resolve('/admin/pages.*')) : ?> active <?php endif;?>">Páginas</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/admin/users" class="nav-link">Usuários</a>
+                    <a href="/admin/users" class="nav-link <?php if (resolve('/admin/users.*')) : ?> active <?php endif; ?>">Usuários</a>
                 </li>
             </ul>
         </div>
