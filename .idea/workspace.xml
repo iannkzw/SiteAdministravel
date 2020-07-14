@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be329548-93ca-435d-a4db-eecee6d31f98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/auth/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/auth/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/auth/login.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/login.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/site/page.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/home.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/pages/edit.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/pages/edit.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flash.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flash.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/site.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/site/contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/contato.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/site/home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/site/home.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +111,7 @@
       <workItem from="1594246291878" duration="387000" />
       <workItem from="1594334538728" duration="3542000" />
       <workItem from="1594569484887" duration="11863000" />
+      <workItem from="1594677757703" duration="6438000" />
     </task>
     <servers />
   </component>
@@ -137,10 +126,10 @@
     <state x="-846" y="45" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@-1280.-116.1280.984" timestamp="1594246679137" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590626171857" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1588291357283" />
-    <state x="-796" y="272" key="NewPhpFileDialog" timestamp="1594587922316">
+    <state x="-796" y="272" key="NewPhpFileDialog" timestamp="1594682768457">
       <screen x="-1280" y="-116" width="1280" height="984" />
     </state>
-    <state x="-796" y="272" key="NewPhpFileDialog/0.0.1366.728/-1280.-116.1280.984@-1280.-116.1280.984" timestamp="1594587922316" />
+    <state x="-796" y="272" key="NewPhpFileDialog/0.0.1366.728/-1280.-116.1280.984@-1280.-116.1280.984" timestamp="1594682768457" />
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1588035897493" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1588814340396">
       <screen x="0" y="0" width="1366" height="728" />
